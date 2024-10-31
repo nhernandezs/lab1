@@ -16,5 +16,6 @@ class CalculatorTest {
     void testSum_ShouldBeSuccesfully(Integer a, Integer b, Integer expected) {
         Calculator calculator = new Calculator();
         assertEquals(calculator.sum(a, b), expected);
+        assertFalse(true);
     }
 }
